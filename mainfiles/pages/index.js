@@ -15,23 +15,21 @@ export default function Home() {
       
       
         <div className='pt-[200px] w-[50%]  bg-[#021229] h-[100vh] p-[50px]' >
-          <label className='heading text-white ' >Welcome to Admin Portal</label>
-          <p className=' text-[30px] text-white mt-[50px]' >Choose the Loyalty Program <br/> You want to set-up</p>
+          <label className='heading text-white ' >Welcome to Customer Portal</label>
+          <p className=' text-[30px] text-white mt-[50px]' >Enjoy the World of OnChain Loyalties <br/> Where Merchants can't track you</p>
         </div>
         <div className=' flex-col w-[50%] bg-white h-[100vh] p-[50px]' >
           <a href='./Cashback' >
             <div className='card' >
               <VscArrowRight/>
-              <label>Set up CashBack Rewards </label>
-              <p className='text-[18px]' >Give your customers rewards in form of crypto as cashback based on their loyalty and purchases</p>
+              <label>Try Buy X Get 1 from Merchant 1</label>
             </div>
           </a>
 
           <a href='./BuyGet' >
             <div className='card' >
               <VscArrowRight/>
-              <label>Set up Buy X Get 1 Free Programme </label>
-              <p className='text-[18px]'>Increase your purchases by rewarding your customer with freebies the more they buy.</p>
+              <label>Try Buy X Get 1 from Merchant 2</label>
             </div>
           </a>
           
