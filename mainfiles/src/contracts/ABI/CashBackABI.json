@@ -1,0 +1,213 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_key",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_purchaseamt",
+				"type": "uint256"
+			}
+		],
+		"name": "addCustomer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_minpurchase",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_minpurchasecount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_percentage",
+				"type": "string"
+			}
+		],
+		"name": "addProgram",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "customers",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "prgid",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "creator",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "customer",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lastpurchase",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "purchasecount",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_key",
+				"type": "uint256"
+			}
+		],
+		"name": "getCustomer",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "prgid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "creator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "customer",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "lastpurchase",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "purchasecount",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct CashBack.Customer",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_key",
+				"type": "uint256"
+			}
+		],
+		"name": "getProgram",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "prgid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "creator",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minpurchase",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minpurchasecount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "percentage",
+						"type": "string"
+					}
+				],
+				"internalType": "struct CashBack.Program",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "programs",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "prgid",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "creator",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "minpurchase",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "minpurchasecount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "percentage",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

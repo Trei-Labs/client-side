@@ -1,0 +1,18 @@
+/* From uiverse.io by @Sujitkavaiya */
+.card {
+    width: fit-content;
+    height: fit-content;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    margin-top: 40px;
+    padding: 45px;
+    font-size: calc(2vmax);
+   }
+   
+   .card:hover {
+    border: #021229 0.1em solid;
+    cursor: pointer;
+   }
